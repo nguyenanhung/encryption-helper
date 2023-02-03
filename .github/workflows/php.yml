@@ -1,5 +1,5 @@
-# GitHub Action for PHP Email Helpers & Libraries by HungNG
-name: Testing PHP Email Helpers & Libraries by HungNG
+# GitHub Action for PHP Encryption Helpers & Libraries by HungNG
+name: Testing PHP Encryption Helpers & Libraries by HungNG
 on: [ push, pull_request ]
 jobs:
     build:

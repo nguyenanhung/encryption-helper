@@ -1,14 +1,14 @@
 {
     "type": "library",
-    "name": "nguyenanhung/template-php-lib",
-    "description": "Template for repository helper, library - Basic, Simple and Lightweight",
+    "name": "nguyenanhung/encryption-helper",
+    "description": "Encryption helper, library - Basic, Simple and Lightweight",
     "keywords": [
-        "template",
+        "encryption",
         "helper",
         "library",
         "php"
     ],
-    "homepage": "https://github.com/nguyenanhung/template-php-lib",
+    "homepage": "https://github.com/nguyenanhung/encryption-helper",
     "license": "MIT",
     "minimum-stability": "stable",
     "authors": [
@@ -20,11 +20,11 @@
         }
     ],
     "require": {
-        "php": ">=5.6"
+        "php": ">=5.3"
     },
     "autoload": {
         "psr-4": {
-            "nguyenanhung\\Libraries\\TemplateREPLACE\\": "src/"
+            "nguyenanhung\\Libraries\\Encryption\\": "src/"
         },
         "files": [
             "helpers/helpers.php"
